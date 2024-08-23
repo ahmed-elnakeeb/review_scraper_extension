@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 250px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .scrape-button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .scrape-button:hover {
+    background-color: #45a049;
+  }
+
+  .alert-note {
+    font-size: 14px;
+    color: #d9534f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d9534f;
+  }
+
+  .alert-note i {
+    margin-right: 5px;
+  }
